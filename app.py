@@ -11,7 +11,7 @@ import os
 app = Flask(__name__)
 
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
-MODEL = "llama-3.1-8b-instant"
+MODEL = "gemma2-9b-8192"
 
 def clean_text(text):
     if not text:
